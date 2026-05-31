@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    135deg,
+    #f5f7fa,
+    #e4ecfb
+  );
+}
+.container {
+  text-align: center;
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  color: #d62828;
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 20px;
+}
+.report-form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: auto;
+  gap: 15px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+input,
+textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+select {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+
+button {
+  padding: 12px;
+  background-color: #d62828;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background-color: #b71c1c;
+}
+
+.success-message {
+  color: green;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.report-card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+.report-card:hover {
+  transform: translateY(-4px);
+}
+.High {
+  border-left: 10px solid red;
+}
+
+.Medium {
+  border-left: 10px solid orange;
+}
+
+.Safe {
+  border-left: 10px solid green;
+}
+.stats-box {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.stats-box h3 {
+  margin: 10px 0;
+}
